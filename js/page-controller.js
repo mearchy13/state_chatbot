@@ -64,16 +64,6 @@ const convFlow = [
     id: "exit",
     response: {
       messages: ["Thank you, have a great day!!"],
-      buttons: [
-        {
-          state: "availClass",
-          display: "What are the available class for next semester?"
-        },
-        {
-          state: "exit",
-          display: "End Chat"
-        }
-      ]
     }
   },
   {
